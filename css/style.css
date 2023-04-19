@@ -133,7 +133,6 @@ img {
 @media screen and (max-width:480px) {
 
     body {
-        
         overflow-x: hidden; /* Hide horizontal scrollbar */
       } 
 
@@ -158,4 +157,14 @@ img {
         width: 100%;
     }
     
+}
+
+/* DAI 720PX IN GIU */
+
+@media screen and (max-width:720px){
+    .container {
+        width: 100%;   
+        margin: 0 auto;
+        padding: 0;
+    }
 }
